@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Nova+Square&family=Rye&display=swap');
+body{
+    /* background-color: rgb(170, 220, 240); */
+    background-color: #45171d;
+    box-sizing: border-box;
+}
+ .main-div img{
+width: 200px;
+height: 200px;
+
+ }
+  .main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }  
+ .tittle{
+      font-family: "Rye", serif;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+ }
+ .heading{
+    font-family: "Rye", serif;
+    color: white;
+    text-align: center;
+  font-family: "Chewy", system-ui;
+    /* font-size: 20px; */
+ }
+ #dropdown{
+    padding: 10px 5px;
+    font-family: "Nova Square", sans-serif;
+    background-color: #fecea8;
+ }
+ #dropdown:focus{
+   background-color: #fecea8;
+    color: rgb(0, 0, 0);
+ }
+.card {
+  /* background-color: #b9f0a4; */
+  background-color: #ff847c;
+  border: 1px solid #070101;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  color: rgb(8, 8, 8);
+  width: 20%; /* adjust the width as needed */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* add a transition effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow effect */
+    font-family: "Nova Square", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card:hover {
+  transform: scale(1.05); /* scale up the card on hover */
+  box-shadow: 10px 10px 10px rgba(255, 248, 248, 0.3); /* increase the shadow effect on hover */
+}
+
+.card-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.create h5 {
+  margin-bottom: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card-footer button {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-footer button:hover {
+  background-color: #23527c;
+}
+img{
+
+
+    width: 200px;
+    height: 200px;
+}
